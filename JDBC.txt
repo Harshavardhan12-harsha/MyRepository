@@ -1,0 +1,12 @@
+create database student_db;
+use student_db;
+create table student_info(id int primary key,name varchar(100),marks int,mblno int(10),emailid varchar(100));
+id      int
+name    varchar(100)
+marks   int
+mblno   int(10)
+emailid varchar(100)
+insert into student_info values(1,'harsha',35,9865578098,'harsha@12');
+insert into student_info values(2,'harshi',36,9864578098,'harshi@12');
+insert into student_info values(3,'gani',30,9865538098,'gani@12');
+
